@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="dataval"></div>
+</body>
+<script id="data" type="application/json">{"org": 10, "items":["one","two"]}</script>
+<script>
+    var data = JSON.parse(document.getElementById('data').innerHTML);
+    document.getElementById("dataval").innerHTML=data.org;
+</script>
+</html>
