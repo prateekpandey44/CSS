@@ -1,0 +1,308 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/prateek\/my_project\/css\/DynaimcSinglePage\/main\.scss}line{font-family:\0000313}}
+body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  width: 100% !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Roboto", sans-serif; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/prateek\/my_project\/css\/DynaimcSinglePage\/main\.scss}line{font-family:\0000322}}
+.backRight {
+  position: absolute;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background: #03A9F4; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/prateek\/my_project\/css\/DynaimcSinglePage\/main\.scss}line{font-family:\0000330}}
+.backLeft {
+  position: absolute;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: #673AB7; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/prateek\/my_project\/css\/DynaimcSinglePage\/main\.scss}line{font-family:\0000338}}
+#back {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -999; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/prateek\/my_project\/css\/DynaimcSinglePage\/main\.scss}line{font-family:\0000345}}
+.canvas-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/prateek\/my_project\/css\/DynaimcSinglePage\/main\.scss}line{font-family:\0000354}}
+#slideBox {
+  width: 50%;
+  max-height: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin-left: 50%;
+  position: absolute;
+  -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+          box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/prateek\/my_project\/css\/DynaimcSinglePage\/main\.scss}line{font-family:\0000364}}
+.topLayer {
+  width: 200%;
+  height: 100%;
+  position: relative;
+  left: 0;
+  left: -100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/prateek\/my_project\/css\/DynaimcSinglePage\/main\.scss}line{font-family:\0000372}}
+label {
+  font-size: 0.8em;
+  text-transform: uppercase; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/prateek\/my_project\/css\/DynaimcSinglePage\/main\.scss}line{font-family:\0000377}}
+input {
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+  font-size: 1em;
+  padding: 8px 1px;
+  margin-top: 0.1em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/prateek\/my_project\/css\/DynaimcSinglePage\/main\.scss}line{font-family:\0000386}}
+.left {
+  width: 50%;
+  height: 100%;
+  overflow: scroll;
+  background: #2C3034;
+  left: 0;
+  position: absolute; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/prateek\/my_project\/css\/DynaimcSinglePage\/main\.scss}line{font-family:\0000393}}
+  .left label {
+    color: #e3e3e3; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/prateek\/my_project\/css\/DynaimcSinglePage\/main\.scss}line{font-family:\0000396}}
+  .left input {
+    border-bottom: 1px solid #e3e3e3;
+    color: #e3e3e3; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/prateek\/my_project\/css\/DynaimcSinglePage\/main\.scss}line{font-family:\0000399}}
+    .left input:focus, .left input:active {
+      border-color: #03A9F4;
+      color: #03A9F4; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/prateek\/my_project\/css\/DynaimcSinglePage\/main\.scss}line{font-family:\00003104}}
+    .left input:-webkit-autofill {
+      -webkit-box-shadow: 0 0 0 30px #2C3034 inset;
+      -webkit-text-fill-color: #e3e3e3; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/prateek\/my_project\/css\/DynaimcSinglePage\/main\.scss}line{font-family:\00003109}}
+  .left a {
+    color: #03A9F4; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/prateek\/my_project\/css\/DynaimcSinglePage\/main\.scss}line{font-family:\00003114}}
+.right {
+  width: 50%;
+  height: 100%;
+  overflow: scroll;
+  background: #f9f9f9;
+  right: 0;
+  position: absolute; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/prateek\/my_project\/css\/DynaimcSinglePage\/main\.scss}line{font-family:\00003121}}
+  .right label {
+    color: #212121; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/prateek\/my_project\/css\/DynaimcSinglePage\/main\.scss}line{font-family:\00003124}}
+  .right input {
+    border-bottom: 1px solid #212121; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/prateek\/my_project\/css\/DynaimcSinglePage\/main\.scss}line{font-family:\00003126}}
+    .right input:focus, .right input:active {
+      border-color: #673AB7; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/prateek\/my_project\/css\/DynaimcSinglePage\/main\.scss}line{font-family:\00003130}}
+    .right input:-webkit-autofill {
+      -webkit-box-shadow: 0 0 0 30px #f9f9f9 inset;
+      -webkit-text-fill-color: #212121; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/prateek\/my_project\/css\/DynaimcSinglePage\/main\.scss}line{font-family:\00003137}}
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 100%;
+  width: 80%;
+  margin: 0 auto;
+  position: relative; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/prateek\/my_project\/css\/DynaimcSinglePage\/main\.scss}line{font-family:\00003147}}
+.content h2 {
+  font-weight: 300;
+  font-size: 2.6em;
+  margin: 0.2em 0 0.1em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/prateek\/my_project\/css\/DynaimcSinglePage\/main\.scss}line{font-family:\00003153}}
+.left .content h2 {
+  color: #03A9F4; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/prateek\/my_project\/css\/DynaimcSinglePage\/main\.scss}line{font-family:\00003157}}
+.right .content h2 {
+  color: #673AB7; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/prateek\/my_project\/css\/DynaimcSinglePage\/main\.scss}line{font-family:\00003161}}
+.form-element {
+  margin: 1.6em 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/prateek\/my_project\/css\/DynaimcSinglePage\/main\.scss}line{font-family:\00003163}}
+  .form-element.form-submit {
+    margin: 1.6em 0 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/prateek\/my_project\/css\/DynaimcSinglePage\/main\.scss}line{font-family:\00003168}}
+.form-stack {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/prateek\/my_project\/css\/DynaimcSinglePage\/main\.scss}line{font-family:\00003173}}
+.checkbox {
+  -webkit-appearance: none;
+  outline: none;
+  background-color: #e3e3e3;
+  border: 1px solid #e3e3e3;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+  padding: 12px;
+  border-radius: 4px;
+  display: inline-block;
+  position: relative; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/prateek\/my_project\/css\/DynaimcSinglePage\/main\.scss}line{font-family:\00003185}}
+.checkbox:focus,
+.checkbox:checked:focus,
+.checkbox:active,
+.checkbox:checked:active {
+  border-color: #03A9F4;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px 1px 3px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px 1px 3px rgba(0, 0, 0, 0.1); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/prateek\/my_project\/css\/DynaimcSinglePage\/main\.scss}line{font-family:\00003193}}
+.checkbox:checked {
+  outline: none;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05), inset 15px 10px -12px rgba(255, 255, 255, 0.1);
+          box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05), inset 15px 10px -12px rgba(255, 255, 255, 0.1); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/prateek\/my_project\/css\/DynaimcSinglePage\/main\.scss}line{font-family:\00003198}}
+.checkbox:checked:after {
+  outline: none;
+  content: '\2713';
+  color: #03A9F4;
+  font-size: 1.4em;
+  font-weight: 900;
+  position: absolute;
+  top: -4px;
+  left: 4px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/prateek\/my_project\/css\/DynaimcSinglePage\/main\.scss}line{font-family:\00003209}}
+.form-checkbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/prateek\/my_project\/css\/DynaimcSinglePage\/main\.scss}line{font-family:\00003212}}
+  .form-checkbox label {
+    margin: 0 6px 0;
+    font-size: 0.72em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/prateek\/my_project\/css\/DynaimcSinglePage\/main\.scss}line{font-family:\00003218}}
+button {
+  padding: 0.8em 1.2em;
+  margin: 0 10px 0 0;
+  width: auto;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 1em;
+  color: #fff;
+  line-height: 1em;
+  letter-spacing: 0.6px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
+  border: 0;
+  outline: 0;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/prateek\/my_project\/css\/DynaimcSinglePage\/main\.scss}line{font-family:\00003233}}
+  button.signup {
+    background: #03A9F4; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/prateek\/my_project\/css\/DynaimcSinglePage\/main\.scss}line{font-family:\00003236}}
+  button.login {
+    background: #673AB7; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/prateek\/my_project\/css\/DynaimcSinglePage\/main\.scss}line{font-family:\00003239}}
+  button.off {
+    background: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/prateek\/my_project\/css\/DynaimcSinglePage\/main\.scss}line{font-family:\00003243}}
+    button.off.signup {
+      color: #03A9F4; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/prateek\/my_project\/css\/DynaimcSinglePage\/main\.scss}line{font-family:\00003246}}
+    button.off.login {
+      color: #673AB7; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/prateek\/my_project\/css\/DynaimcSinglePage\/main\.scss}line{font-family:\00003252}}
+button:focus,
+button:active,
+button:hover {
+  -webkit-box-shadow: 0 4px 7px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 4px 7px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/prateek\/my_project\/css\/DynaimcSinglePage\/main\.scss}line{font-family:\00003256}}
+  button:focus.signup,
+  button:active.signup,
+  button:hover.signup {
+    background: #0288D1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/prateek\/my_project\/css\/DynaimcSinglePage\/main\.scss}line{font-family:\00003259}}
+  button:focus.login,
+  button:active.login,
+  button:hover.login {
+    background: #512DA8; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/prateek\/my_project\/css\/DynaimcSinglePage\/main\.scss}line{font-family:\00003262}}
+  button:focus.off,
+  button:active.off,
+  button:hover.off {
+    -webkit-box-shadow: none;
+            box-shadow: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/prateek\/my_project\/css\/DynaimcSinglePage\/main\.scss}line{font-family:\00003264}}
+    button:focus.off.signup,
+    button:active.off.signup,
+    button:hover.off.signup {
+      color: #03A9F4;
+      background: #212121; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/prateek\/my_project\/css\/DynaimcSinglePage\/main\.scss}line{font-family:\00003268}}
+    button:focus.off.login,
+    button:active.off.login,
+    button:hover.off.login {
+      color: #512DA8;
+      background: #e3e3e3; }
+
+@media only screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/prateek\/my_project\/css\/DynaimcSinglePage\/main\.scss}line{font-family:\00003276}}
+  #slideBox {
+    width: 80%;
+    margin-left: 20%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/prateek\/my_project\/css\/DynaimcSinglePage\/main\.scss}line{font-family:\00003280}}
+  .signup-info,
+  .login-info {
+    display: none; } }
+
+/*# sourceMappingURL=main.css.map */
