@@ -23,8 +23,8 @@
             .then(function(response){
                 document.getElementById("dataVal").innerHTML = response.org;
             })
-            .catch(function (myJson) {
-                console.log(myJson);
+            .catch(function (error) {
+                console.log(error);
             });
 </script>
 </html>
