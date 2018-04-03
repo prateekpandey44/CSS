@@ -9,9 +9,33 @@
 <body>
     <div id="dataval"></div>
 </body>
-<script id="data" type="application/json">{"org": 10, "items":["one","two"]}</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- <script id="data" type="application/json" src="./data"></script> -->
+<!-- {"org": 10, "items":["one","two"]} -->
 <script>
-    var data = JSON.parse(document.getElementById('data').innerHTML);
-    document.getElementById("dataval").innerHTML=data.org;
+    // npm install http-server -g
+    // now go to the location in your project and run http-server . -o 
+
+    var datadata = $.getJSON("data.jsonp",{ format: "jsonp", "Access-Control-Allow-Origin":"*"}, function (data) {
+            console.log("success",data.org);
+            document.getElementById("dataval").innerHTML=data.org;
+        })
+            .done(function () {
+                console.log("second success");
+            })
+            .fail(function () {
+                console.log("error");
+            })
+            .always(function () {
+                console.log("complete");
+            });
+
+        // Perform other work here ...
+
+        // Set another completion function for the request above
+        datadata.complete(function () {
+            console.log("second complete");
+        });
+    
 </script>
 </html>
